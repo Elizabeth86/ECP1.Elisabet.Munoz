@@ -18,10 +18,17 @@ public class Rectangulo {
         return this.altura;
     }
     
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+    
 	public double areaRectangulo (){
         return this.base * this.altura;
     }
-	
 
     public int perimetroRectangulo (){
         return this.base + this.altura;
