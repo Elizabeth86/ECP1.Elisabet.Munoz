@@ -19,7 +19,7 @@ public class Rectangulo {
     }
     
 	public double areaRectangulo (){
-        return base * altura;
+        return this.base * this.altura;
     }
 	
 
@@ -28,7 +28,7 @@ public class Rectangulo {
     }
     
     public double diagonalRectangulo (){
-        return Math.sqrt((Math.pow(altura, 2)) + (Math.pow(base, 2)));
+        return Math.sqrt((Math.pow(this.altura, 2)) + (Math.pow(this.base, 2)));
     }
 
 }
