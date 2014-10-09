@@ -21,7 +21,7 @@ public class Rectangulo {
         return base * altura;
     }
 	
-    public double perimetroRectangulo (double base, double altura){
+    public double perimetroRectangulo (){
         return base + altura;
     }
     
