@@ -2,7 +2,22 @@ package geometria;
 
 public class Rectangulo {
 	
-	public int areaRectangulo (int base, int altura){
+	private int base, altura;
+	
+	public Rectangulo (int base, int altura){
+		this.base = base;
+		this.altura = altura;
+	}
+	
+	public int getBase() {
+        return this.base;
+    }
+
+    public int getAltura() {
+        return this.altura;
+    }
+    
+	public double areaRectangulo (){
         return base * altura;
     }
 	
