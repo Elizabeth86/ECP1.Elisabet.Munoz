@@ -42,5 +42,9 @@ public class Rectangulo {
     public double diagonalRectangulo (){
         return Math.sqrt((Math.pow(this.altura, 2)) + (Math.pow(this.base, 2)));
     }
+    
+    public double sumaAreaPerimetro(Rectangulo rectangulo){
+    	return rectangulo.areaRectangulo() + rectangulo.perimetroRectangulo();
+    }
 
 }
