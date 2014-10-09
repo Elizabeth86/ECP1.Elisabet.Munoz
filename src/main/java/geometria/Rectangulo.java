@@ -8,8 +8,8 @@ public class Rectangulo {
         return this.base * this.altura;
     }
 	
-    public int perimetroRectangulo (int base, int altura){
-        return base + altura;
+    public int perimetroRectangulo (){
+        return this.base + this.altura;
     }
     
     public double diagonalRectangulo (double base, double altura){
